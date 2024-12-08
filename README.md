@@ -1,7 +1,7 @@
 # Library Catalog Management System
 > CSC 307 (Data Structures) Semester Project
 
-The Library Catalog Management System is a desktop application written in C++ with a command-line interface. It allows users to efficiently manage a library catalog by adding, modifying, removing, and searching for books. The system uses a B-tree for fast in-memory operations and SQLite for persistent data storage.
+The Library Catalog Management System is a desktop application written in C++ with a command-line interface. It allows users to efficiently manage a library catalog by adding, modifying, removing, and searching for books. The system uses a B-tree for fast in-memory operations. 
 
 ---
 
@@ -18,8 +18,5 @@ The Library Catalog Management System is a desktop application written in C++ wi
 
 - **Search Functionality**  
   Quickly search for books by ISBN using a B-tree for optimized lookups.
-
-- **Persistent Data Storage**  
-  Ensures data is saved and recoverable using an SQLite database, with a B-tree for real-time memory operations.
 
 ---
